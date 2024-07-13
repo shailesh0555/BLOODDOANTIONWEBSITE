@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: #3498db;
+}
+
+h2 {
+    color: #333;
+}
+
+.error {
+    color: #e74c3c;
+    margin-bottom: 10px;
+}
+
+.success {
+    color: #2ecc71;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.blood-drop {
+    font-size: 30px;
+    color: #c0392b;
+    font-weight: bold;
+}
+
+#previousDonors {
+    margin-top: 30px;
+}
+
+#previousDonors h2 {
+    margin-bottom: 10px;
+}
+
+#donorsList {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#donorsList li {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#requestAvailability {
+    margin-top: 30px;
+}
+
+#requestAvailability h2 {
+    margin-bottom: 10px;
+}
+
+#requestAvailability p {
+    font-size: 18px;
+    color: #27ae60;
+}
